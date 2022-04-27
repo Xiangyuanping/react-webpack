@@ -1,0 +1,50 @@
+### Example user template
+
+# IntelliJ project files
+.idea
+out
+gen
+target
+*.iml
+.idea_modules/
+
+# Eclipse
+.settings
+.classpath
+.project
+
+# Compiled class file
+*.class
+
+# Log file
+logs
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Subversion
+.svn
+
+# Nodejs
+node_modules
+dist
+
+# VS Code
+.vscode
+
+# MAC OS
+.DS_Store
+
+# Other files
+rebel*.xml
+.Trashes
