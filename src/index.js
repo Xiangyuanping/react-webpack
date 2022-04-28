@@ -1,16 +1,17 @@
-import 'antd/lib/index.css';
 import React from 'react';
-import ReactDom from 'react-dom';
-import {Provider} from 'react-redux';
-import {hashHistory as History, HashRouter as Router} from 'react-router-dom';
-import Routes from './router/index';
-import store from './redux/store';
+import ReactDOM from 'react-dom';
+import {Button} from 'antd';
+import 'antd/dist/antd.less';
+import './index.less'
 
-ReactDom.render(
-    <Provider store={store}>
-        <Router history={History}>
-            <Routes></Routes>
-        </Router>
-    </Provider>,
-document.getElementById('app')
-);
+const App = () => {
+    return (
+        <div>
+            <div className="photo"></div>
+            <span>Hello React</span>
+            <Button type="primary">antd</Button>
+        </div>
+    )
+}
+
+ReactDOM.render(<App/>, document.getElementById('root'));

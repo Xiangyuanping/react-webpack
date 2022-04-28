@@ -6,26 +6,22 @@
 2. npm install --save react react-dom 安装react核心组件
 3. npm install --save-dev webpack webpack-cli 安装打包工具（webpack 4+ 版本，还需要安装 webpack-cli）。
 4. npm install --save-dev webpack-dev-server 安装本地服务器（安装webpack-dev-server，一个小型express服务器，主要特性是支持热加载）。
-5. npm install --save-dev redux react-redux 安装状态管理器。
-6. npm install --save-dev react-router-dom  安装路由。
-cnpm install --save-dev friendly-errors-webpack-plugin
-cnpm install --save-dev webpack-merge
-cnpm install --save-dev html-webpack-plugin
-
-
-cnpm install --save-dev babel-core babel-loader babel-preset-env 
-cnpm install --save-dev babel babel-cli
-cnpm install --save-dev babel-preset-react  babel-preset-es2015
-cnpm install --save-dev babel-preset-stage-0
-
-cnpm install --save-dev css-loader style-loader
-cnpm install --save-dev url-loader 
-cnpm install less-loader less 
-
-
-5. 根目录新建文件夹src(views、router、redux、api、componet、index.js),public,index.html。
-6. 根目录新建文件webpack.config.js 并添加webpack打包配置。
-7. 配置package.js启动选项。
+5. npm install --save-dev redux react-redux redux-devtools-extension 安装状态管理器。
+6. npm install --save-dev  redux-thunk
+7. npm install --save-dev react-router-dom  安装路由。
+8. cnpm install --save-dev friendly-errors-webpack-plugin
+9. cnpm install --save-dev webpack-merge
+10. cnpm install --save-dev html-webpack-plugin
+11. cnpm install --save-dev babel-core babel-loader babel-preset-env 
+12. cnpm install --save-dev babel babel-cli
+13. cnpm install --save-dev babel-preset-react  babel-preset-es2015
+14. cnpm install --save-dev babel-preset-stage-0
+15. cnpm install --save-dev css-loader style-loader
+16. cnpm install --save-dev url-loader 
+17. cnpm install less-loader less 
+18. 根目录新建文件夹src(views、router、redux、api、componet、index.js),public,index.html。
+19. 根目录新建文件webpack.config.js 并添加webpack打包配置。
+20. 配置package.js启动选项。
 
 
 
